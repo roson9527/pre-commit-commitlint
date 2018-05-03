@@ -1,5 +1,4 @@
 -  id: commitlint-cn
    name: commitlint for CN
-   entry: commitlint_cn.sh
-   language: scripts
-
+   entry: commitlint -g ./.commitlintrc.js -e $GIT_PARAMS
+   language: system
