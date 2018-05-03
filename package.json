@@ -1,0 +1,23 @@
+{
+  "name": "pre-commit-commitlint",
+  "version": "0.1.0",
+  "description": "",
+  "main": "commitlint_cn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roson9527/pre-commit-commitlint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roson9527/pre-commit-commitlint/issues"
+  },
+  "homepage": "https://github.com/roson9527/pre-commit-commitlint#readme"
+}

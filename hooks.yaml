@@ -1,0 +1,5 @@
+-  id: commitlint-cn
+   name: commitlint for CN
+   entry: commitlint_cn.sh
+   language: scripts
+
