@@ -2,7 +2,6 @@
   "name": "pre-commit-commitlint",
   "version": "0.1.0",
   "description": "",
-  "main": "commitlint_cn.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
