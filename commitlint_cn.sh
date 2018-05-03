@@ -1,3 +1,3 @@
 #! /usr/bin/env bash
 
-commitlint -e $GIT_PARAMS
+commitlint -g ./.commitlintrc.js -e $GIT_PARAMS
