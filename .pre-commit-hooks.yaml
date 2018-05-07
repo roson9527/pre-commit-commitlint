@@ -1,0 +1,6 @@
+- id: commitlint
+  name: commitlint
+  entry: commitlint -e .git/COMMIT_EDITMSG
+  language: system
+  always_run: true
+  exclude_types: ["file"]
