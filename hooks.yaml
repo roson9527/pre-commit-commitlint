@@ -1,4 +1,6 @@
--  id: commitlint-cn
-   name: commitlint for CN
-   entry: commitlint -g ./.commitlintrc.js -e $GIT_PARAMS
-   language: system
+- id: commitlint
+  name: commitlint
+  entry: commitlint -e .git/COMMIT_EDITMSG
+  language: system
+  always_run: true
+  exclude_types: ["file"]
